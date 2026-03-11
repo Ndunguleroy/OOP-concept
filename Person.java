@@ -1,9 +1,9 @@
-// Person class - base class for the system
-// demonstrates encapsulation using private variables
+
+// encapsulation using private variables
 
 public class Person {
 
-    // private fields (data hiding)
+    // data hiding
     private String name;
     private int age;
     private String gender;
@@ -44,7 +44,6 @@ public class Person {
         this.gender = gender;
     }
 
-    // method to display basic info
     public void displayInfo(){
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
